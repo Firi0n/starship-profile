@@ -123,6 +123,10 @@ ssh_symbol = ""
 symbol = ""
 format = '\([$symbol($version)]($style)\)'
 
+[jobs]
+format = '\([$symbol$number]($style)\)'
+number_threshold = 1
+
 [julia]
 symbol = ""
 format = '\([$symbol($version)]($style)\)'
