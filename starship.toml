@@ -5,6 +5,15 @@ format = '''┌─\($os $username\)$all
 
 add_newline=false
 
+[battery]
+format = '\([$symbol$percentage]($style)\)'
+full_symbol = '🔋 '
+charging_symbol = '⚡️ '
+discharging_symbol = '💀 '
+
+[[battery.display]]
+threshold = 30
+
 [line_break]
 disabled = true
 
