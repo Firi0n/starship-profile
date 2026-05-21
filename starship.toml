@@ -13,7 +13,7 @@ add_newline=false
 format = '\([$symbol]($style)\)'
 
 [[battery.display]]
-threshold = 100
+threshold = 99
 style = 'green'
 charging_symbol = '󰁹[󱐋](yellow)'
 discharging_symbol = '󰁹'
