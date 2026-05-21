@@ -2,38 +2,45 @@
 
 scan_timeout = 100
 
-format = '''┌─\($os$hostname $username\)$directory$battery$cmd_duration(
+format = '''
+┌─\($os$hostname $username\)$directory$battery$cmd_duration(
 │ (\($git_branch(|$git_status)\))$all)
 └$character'''
 
 add_newline=false
 
 [battery]
-format = '\([$symbol $percentage]($style)\)'
-full_symbol = '🔋'
-charging_symbol = '⚡️'
-discharging_symbol = '󰂃'
+format = '\([$symbol]($style)\)'
 
 [[battery.display]]
 threshold = 100
 style = 'green'
+charging_symbol = '󰁹[󱐋](yellow)'
+discharging_symbol = '󰁹'
 
 [[battery.display]]
 threshold = 80
 style = 'blue'
+charging_symbol = '󰂁[󱐋](yellow)'
+discharging_symbol = '󰂁'
 
 [[battery.display]]
 threshold = 60
 style = 'cyan'
+charging_symbol = '󰁿[󱐋](yellow)'
+discharging_symbol = '󰁿'
 
 [[battery.display]]
 threshold = 40
 style = 'yellow'
+charging_symbol = '󰁽[󱐋](yellow)'
+discharging_symbol = '󰁽'
 
 [[battery.display]]
 threshold = 20
 style = 'red'
-discharging_symbol = '💀'
+charging_symbol = '󰁻[󱐋](yellow)'
+discharging_symbol = '󰁻'
 
 [line_break]
 disabled = true
