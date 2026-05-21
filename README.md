@@ -39,10 +39,10 @@ Five threshold levels with colour-coded icons and distinct charging/discharging 
 
 | Charge | Style |
 |--------|-------|
-| > 80 % | 🟢 Green |
-| > 60 % | 🔵 Blue |
-| > 40 % | 🩵 Cyan |
-| > 20 % | 🟡 Yellow |
+| ≤ 99 % | 🟢 Green |
+| ≤ 80 % | 🔵 Blue |
+| ≤ 60 % | 🩵 Cyan |
+| ≤ 40 % | 🟡 Yellow |
 | ≤ 20 % | 🔴 Red |
 
 ### OS detection
