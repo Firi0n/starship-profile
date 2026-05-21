@@ -2,20 +2,38 @@
 
 scan_timeout = 100
 
-format = '''┌─\($os$hostname $username\)$directory(
+format = '''┌─\($os$hostname $username\)$directory$battery$cmd_duration(
 │ (\($git_branch(|$git_status)\))$all)
 └$character'''
 
 add_newline=false
 
 [battery]
-format = '\([$symbol$percentage]($style)\)'
-full_symbol = '🔋 '
-charging_symbol = '⚡️ '
-discharging_symbol = '💀 '
+format = '\([$symbol $percentage]($style)\)'
+full_symbol = '🔋'
+charging_symbol = '⚡️'
+discharging_symbol = '󰂃'
 
 [[battery.display]]
-threshold = 30
+threshold = 100
+style = 'green'
+
+[[battery.display]]
+threshold = 80
+style = 'blue'
+
+[[battery.display]]
+threshold = 60
+style = 'cyan'
+
+[[battery.display]]
+threshold = 40
+style = 'yellow'
+
+[[battery.display]]
+threshold = 20
+style = 'red'
+discharging_symbol = '💀'
 
 [line_break]
 disabled = true
@@ -100,7 +118,7 @@ symbol = ""
 format = '''[$symbol $branch]($style)'''
 
 [git_status]
-format = '[($ahead_behind[|](white))$all_status]($style)'
+format = '[($ahead_behind[|](first))$all_status]($style)'
 ahead = "⇡$count"
 behind = "⇣$count"
 diverged = "⇕⇡$ahead_count⇣$behind_count"
