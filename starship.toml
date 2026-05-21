@@ -56,7 +56,7 @@ format = '\([$symbol($version(-$name))]($style)\)'
 format = '\([$symbol($version)]($style)\)'
 
 [cmd_duration]
-format = '\([⏱ $duration]($style)\)'
+format = '\([⏱$duration]($style)\)'
 
 [cobol]
 format = '\([$symbol($version)]($style)\)'
@@ -82,7 +82,8 @@ format = '\([$symbol($version)]($style)\)'
 [directory]
 read_only = "󰌾"
 format = '\([$path]($style)[$read_only]($read_only_style)\)'
-truncation_symbol="../"
+truncation_symbol="…/"
+truncation_length = 2
 
 [docker_context]
 symbol = ""
