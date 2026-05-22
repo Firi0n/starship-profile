@@ -130,32 +130,32 @@ format = '\([$symbol]($style)\)'
 [[battery.display]]
 threshold = 99
 style = 'green'
-charging_symbol = '󰁹[󱐋](yellow)'
-discharging_symbol = '󰁹'
+charging_symbol = '󰂂[󱐋](yellow)'
+discharging_symbol = '󰂂'
 
 [[battery.display]]
 threshold = 80
 style = 'blue'
-charging_symbol = '󰂁[󱐋](yellow)'
-discharging_symbol = '󰂁'
+charging_symbol = '󰂀[󱐋](yellow)'
+discharging_symbol = '󰂀'
 
 [[battery.display]]
 threshold = 60
 style = 'cyan'
-charging_symbol = '󰁿[󱐋](yellow)'
-discharging_symbol = '󰁿'
+charging_symbol = '󰁾[󱐋](yellow)'
+discharging_symbol = '󰁾'
 
 [[battery.display]]
 threshold = 40
 style = 'yellow'
-charging_symbol = '󰁽[󱐋](yellow)'
-discharging_symbol = '󰁽'
+charging_symbol = '󰁼[󱐋](yellow)'
+discharging_symbol = '󰁼'
 
 [[battery.display]]
 threshold = 20
 style = 'red'
-charging_symbol = '󰁻[󱐋](yellow)'
-discharging_symbol = '󰁻'
+charging_symbol = '󰁺[󱐋](yellow)'
+discharging_symbol = '󰁺'
 
 # ---------------------------------------------------------------------------
 # SHELL & ENVIRONMENT
