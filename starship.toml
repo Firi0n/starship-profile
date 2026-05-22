@@ -98,7 +98,7 @@ Windows = "󰍲"
 
 # Command execution time — shown when a command takes noticeable time
 [cmd_duration]
-format = '\([⏱$duration]($style)\)'
+format = '\([⏱ $duration]($style)\)'
 
 # Current time (disabled by default in Starship; add `disabled = false` to enable)
 [time]
