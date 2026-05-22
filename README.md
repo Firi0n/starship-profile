@@ -21,6 +21,8 @@ The prompt is split into **three lines**:
 ### Example in other project with git branch and status tracking, package version tracking and Python version and virtual environment tracking
 ![Example in other project with git branch and status tracking, package version tracking and Python version and virtual environment tracking](screenshots/mtgwants_project.png)
 
+> Screenshots taken with [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) and [Tokyo Night](https://tokyonight.dev/) theme.
+
 ## Getting started
 
 - **Install Starship** → [starship.rs/guide](https://starship.rs/guide/)
