@@ -129,7 +129,7 @@ truncation_length = 2
 format = '\([$symbol]($style)\)'
 
 [[battery.display]]
-threshold = 99
+threshold = 100
 style = 'green'
 charging_symbol = '󰂂[󱐋](yellow)'
 discharging_symbol = '󰂂'
