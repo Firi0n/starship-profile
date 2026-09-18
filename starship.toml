@@ -57,7 +57,7 @@ Alpine = ""
 AlmaLinux = ""
 Amazon = ""
 Android = ""
-Arch = ""
+Arch = ""
 Artix = ""
 CentOS = ""
 Debian = ""
@@ -95,7 +95,7 @@ Ubuntu = ""
 Unknown = ""
 Void = ""
 Windows = "󰍲"
-CachyOS = "c"
+CachyOS = "c"
 
 # Command execution time — shown when a command takes noticeable time
 [cmd_duration]
