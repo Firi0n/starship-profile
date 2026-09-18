@@ -95,7 +95,7 @@ Ubuntu = ""
 Unknown = ""
 Void = ""
 Windows = "󰍲"
-CachyOS = ""
+CachyOS = ""
 
 # Command execution time — shown when a command takes noticeable time
 [cmd_duration]
